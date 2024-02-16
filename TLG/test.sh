@@ -1,0 +1,1 @@
+python -m tools.launch ./configs/youtube/umt_small_100e_youtube_gym.py --checkpoint ./work_dirs/umt_small_100e_youtube_gym/epoch_{$epoch}.pth --eval
