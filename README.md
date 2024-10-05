@@ -1,16 +1,16 @@
-# READ-PVLA: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling
+# READ: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling
 
-This repository consists of the implementation of the paper [READ-PVLA: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling](https://arxiv.org/abs/2312.06950).
+This repository consists of the implementation of the paper [READ: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling](https://arxiv.org/abs/2312.06950).
 
 [Thong Nguyen](https://nguyentthong.github.io/), [Xiaobao Wu](https://bobxwu.github.io/), [Xinshuai Dong](https://dongxinshuai.github.io/), Khoi Le, [Zhiyuan Hu](https://zhiyuanhubj.github.io/), Cong-Duy Nguyen, [See-Kiong Ng](https://www.comp.nus.edu.sg/~ngsk/), [Luu Anh Tuan](https://tuanluu.github.io/) (AAAI 2024)
 
 ![Teaser image](./asset/teaser.png)
 
-In this work, we propose a novel REcurrent ADapter (READ) that employs recurrent computation to facilitate temporal modeling capability for parameter-efficient adapters. To further enhance our READ modules, we propose Partial Video-Language Alignment (PVLA) objective via the use of partial optimal transport to maintain task-related information to flow into these modules. Extensive experiments validate the effectiveness of our READ-PVLA framework on multiple low-resource temporal language grounding and video-language summarization benchmarks.
+In this work, we propose a novel REcurrent ADapter (READ) that employs recurrent computation to facilitate temporal modeling capability for parameter-efficient adapters. To further enhance our READ modules, we propose Partial Video-Language Alignment (PVLA) objective via the use of partial optimal transport to maintain task-related information to flow into these modules. Extensive experiments validate the effectiveness of our READ framework on multiple low-resource temporal language grounding and video-language summarization benchmarks.
 
 ```
 @article{nguyen2023read,
-  title={READ-PVLA: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling},
+  title={READ: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling},
   author={Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Le, Khoi and Hu, Zhiyuan and Nguyen, Cong-Duy and Ng, See-Kiong and Tuan, Luu Anh},
   journal={arXiv preprint arXiv:2312.06950},
   year={2023}

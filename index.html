@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>READ</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Chau Philomene One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body" style="background-image: url(static/images/demo_thumbnail.png); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100vw;">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title" style="font-family: Anton; color: white; font-size: 45px;">READ: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block" style="color: white !important; font-family: Prompt; font-weight: bold;">
+              <a href="https://nguyentthong.github.io/" style="color: white !important; font-family: Prompt; font-weight: bold;">Thong Nguyen</a><sup style="font-family: Prompt; font-weight: bold; color: white;">1</sup>,</span>
+              <span class="author-block" style="color: white !important; font-family: Prompt; font-weight: bold;">
+                <a href="" style="color: white !important; font-family: Prompt; font-weight: bold;">Xiaobao Wu</a><sup style="font-family: Prompt; font-weight: bold; color: white">2</sup>,
+              </span>
+              <span class="author-block" style="color: white !important; font-family: Prompt; font-weight: bold;">
+                <a href="" style="color: white !important; font-family: Prompt; font-weight: bold;">Xinshuai Dong</a><sup style="font-family: Prompt; font-weight: bold; color: white">3</sup>,
+              </span>
+              <span class="author-block" style="color: white !important; font-family: Prompt; font-weight: bold;">
+                <a href="" style="color: white !important; font-family: Prompt; font-weight: bold;">Khoi Le</a><sup style="font-family: Prompt; font-weight: bold; color: white">4</sup>,
+              </span>
+              <span class="author-block" style="color: white !important; font-family: Prompt; font-weight: bold;">
+              <a href="" style="color: white !important; font-family: Prompt; font-weight: bold;">Zhiyuan Hu</a><sup style="font-family: Prompt; font-weight: bold; color: white;">1</sup>,</span>
+            <span class="author-block" style="color: white !important; font-family: Prompt; font-weight: bold;">
+              <a href="" style="color: white !important; font-family: Prompt; font-weight: bold;">Cong-Duy Nguyen</a><sup style="font-family: Prompt; font-weight: bold; color: white">2</sup>,
+            </span>
+            <span class="author-block" style="color: white !important; font-family: Prompt; font-weight: bold;">
+              <a href="" style="color: white !important; font-family: Prompt; font-weight: bold;">See-Kiong Ng</a><sup style="font-family: Prompt; font-weight: bold; color: white">1</sup>,
+            </span>
+            <span class="author-block" style="color: white !important; font-family: Prompt; font-weight: bold;">
+              <a href="" style="color: white !important; font-family: Prompt; font-weight: bold;">Luu Anh Tuan</a><sup style="font-family: Prompt; font-weight: bold; color: white">2</sup>,
+            </span>
+          </div> 
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block" style="color: white; font-family: Prompt; font-weight: bold;"><sup>1</sup>National University of Singapore (NUS),</span>
+            <span class="author-block" style="color: white; font-family: Prompt; font-weight: bold;"><sup>2</sup>Nanyang Technological University (NTU),</span>
+            <span class="author-block" style="color: white; font-family: Prompt; font-weight: bold;"><sup>3</sup>Carnegie Mellon University (CMU),</span>
+            <span class="author-block" style="color: white; font-family: Prompt; font-weight: bold;"><sup>4</sup>VinAI Research</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2312.06950"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2312.06950"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://github.com/nguyentthong/READ"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br>
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="subtitle">
+          TLDR: Introduction of recurrent low-rank adaptation layers supported by an optimal-transport-based alignment objective between video and language representations in limited training data settings.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="color: black; font-family: Prompt;">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Fully fine-tuning pretrained large-scale transformer models has become a popular paradigm for video-language modeling tasks, such as temporal language grounding and video-language summarization. With a growing number of tasks and limited training data, such full fine-tuning approach leads to costly model storage and unstable training. To overcome these shortcomings, we introduce lightweight adapters to the pre-trained model and only update them at fine-tuning time. However, existing adapters fail to capture intrinsic temporal relations among video frames or textual words. Moreover, they neglect the preservation of critical task-related information that flows from the raw video-language input into the adapter's low-dimensional space. To address these issues, we first propose a novel REcurrent ADapter (READ) that employs recurrent computation to enable temporal modeling capability. Second, we propose Partial Video-Language Alignment objective via the use of partial optimal transport to maintain task-related information flowing into our READ modules. We validate our READ framework through extensive experiments where READ significantly outperforms all existing fine-tuning strategies on multiple low-resource temporal language grounding and video-language summarization benchmarks.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <!-- Title Section -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3" style="font-family: Prompt; color: black;">Introduction</h2>
+      </div>
+    </div>
+  </div>
+  <br>
+
+    <div class="columns is-centered">
+      <div class="column is-three-fifths">
+        <ul style="text-align: left; list-style-type: disc;">
+          <li>Previous works fine-tune adaptation layers (Adapter) to mitigate the high computational cost and reduce overfitting as obtaining video-language data is expensive.</li>
+          <li>However, the adapters pay little attention to temporal modeling for video.</li>
+          <li>Moreover, the relationship between video and language modalities is also neglected. Such relationship is necessary to ground the entities or understand the language context.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full">
+            <img src="static/images/video_language_alignment_motivation.png" alt="JPG">
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<hr class="solid">
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3" style="font-family: Prompt; color: black;">Methodology</h2>
+      </div>
+    </div>
+  </div>
+  <div class="columns is-centered">
+    <div class="column is-three-fifths">
+      <ul style="text-align: left; list-style-type: disc;">
+        <li>We propose REcurrent ADapter (READ) to help low-rank adapters capture temporal information.</li>
+        <li>We integrate Partial Video-Language Alignment (PVLA) to encourage the alignment between video and language modalities.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <img src="static/images/overall_architecture.png" alt="JPG">
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="solid">
+<section class="section">
+  <!-- 标题部分 -->
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3" style="font-family: Prompt; color: black;">Experimental Results</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="columns is-centered">
+    <div class="column is-three-fifths">
+      <ul style="text-align: left; list-style-type: disc;">
+        <li>We evaluate our method on two prominent temporal grounding and video-text summarization tasks.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <img src="static/images/experimental_results.png" alt="JPG">
+      </div>
+    </div>
+  </div>
+
+  <div class="columns is-centered">
+    <div class="column is-three-fifths">
+      <ul style="text-align: left; list-style-type: disc;">
+        <li>Our framework outperforms other fine-tuning approaches with significantly low trainable parameters.</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full" style="width: 600px;">
+        <img src="static/images/performance_figure.png" alt="JPG">
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="solid">
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title has-text-centered" style="font-family: Prompt; color: black;">BibTeX</h2>
+    <pre><code>
+      @article{nguyen2024read,
+        author    = {Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Le, Khoi M and Hu, Zhiyuan and Nguyen, Cong-Duy and Ng, See-Kiong and Luu, Anh Tuan},
+        title     = {READ: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling},
+        journal   = {AAAI},
+        year      = {2024},
+      }
+    </code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/pdf/2312.06950">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/nguyentthong/READ" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/zhiyuanhubj/Long_form_VideoQA">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
