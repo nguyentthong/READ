@@ -1,8 +1,8 @@
 # READ: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling
+<a href="https://nguyentthong.github.io/READ/" target="_blank"><img alt="Homepage" src="https://img.shields.io/badge/🌍 Homepage-d35400?color=d35400" /></a>
+<a href="https://arxiv.org/abs/2312.06950" target="_blank"><img alt="Paper" src="https://img.shields.io/badge/📄 Paper-28a745?color=28a745" /></a>
 
-This repository consists of the implementation of the paper [READ: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling](https://arxiv.org/abs/2312.06950).
-
-[Thong Nguyen](https://nguyentthong.github.io/), [Xiaobao Wu](https://bobxwu.github.io/), [Xinshuai Dong](https://dongxinshuai.github.io/), Khoi Le, [Zhiyuan Hu](https://zhiyuanhubj.github.io/), Cong-Duy Nguyen, [See-Kiong Ng](https://www.comp.nus.edu.sg/~ngsk/), [Luu Anh Tuan](https://tuanluu.github.io/) (AAAI 2024)
+This repository consists of the implementation of the [AAAI 2024](https://arxiv.org/abs/2312.06950) paper.
 
 ![Teaser image](./asset/teaser.png)
 
