@@ -18,18 +18,20 @@ In this work, we propose a novel REcurrent ADapter (READ) that employs recurrent
 ```
 
 ## Requirements
--   scikit-learn>=1.0
--   torch>=1.11
--   torchtext>=0.12
--   torchvision>=0.12
--   nncore>=0.3.6
--   transformers==4.3.2
--   pytorch-lightning==1.2.4
--   torch==1.8.0
--   datasets==1.3.0
--   packaging==21.3
--   nltk==3.8.1
--   rouge-score==0.1.2
+```
+scikit-learn ≥ 1.0
+torch ≥ 1.11
+torchtext ≥ 0.12
+torchvision ≥ 0.12
+nncore ≥ 0.3.6
+transformers == 4.3.2
+pytorch-lightning == 1.2.4
+torch == 1.8.0
+datasets == 1.3.0
+packaging == 21.3
+nltk == 3.8.1
+rouge-score == 0.1.2
+```
 
 ## How to Run
 ### 1. Prepare the Data
