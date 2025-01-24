@@ -26,7 +26,6 @@ torchvision ≥ 0.12
 nncore ≥ 0.3.6
 transformers == 4.3.2
 pytorch-lightning == 1.2.4
-torch == 1.8.0
 datasets == 1.3.0
 packaging == 21.3
 nltk == 3.8.1
